@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import dk.sdu.mmmi.cbse.asteroid.AsteroidMovementSystem;
 import dk.sdu.mmmi.cbse.asteroid.AsteroidPlugin;
+import dk.sdu.mmmi.cbse.collision.CollisionSystem;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
@@ -57,9 +58,11 @@ public class Game
         IEntityProcessingService playerProcess = new PlayerControlSystem();
         IEntityProcessingService enemyProcess = new EnemyControlSystem();
         IEntityProcessingService asteroidProcess = new AsteroidMovementSystem();
+        IEntityProcessingService collisionProcess = new CollisionSystem();
         entityProcessors.add(playerProcess);
         entityProcessors.add(enemyProcess);
         entityProcessors.add(asteroidProcess);
+        entityProcessors.add(collisionProcess);
         
         // Lookup all Game Plugins using ServiceLoader
         for (IGamePluginService iGamePlugin : entityPlugins) {

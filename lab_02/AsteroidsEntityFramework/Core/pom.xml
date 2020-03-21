@@ -84,6 +84,12 @@
             <artifactId>Asteroid</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>Collision</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
