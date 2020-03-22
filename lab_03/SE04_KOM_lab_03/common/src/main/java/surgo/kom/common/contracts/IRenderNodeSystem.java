@@ -1,4 +1,4 @@
-package surgo.kom.core.interfaces;
+package surgo.kom.common.contracts;
 
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import surgo.kom.common.GameData;

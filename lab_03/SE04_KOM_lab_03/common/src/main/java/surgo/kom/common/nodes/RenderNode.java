@@ -1,8 +1,7 @@
-package surgo.kom.core.nodes;
+package surgo.kom.common.nodes;
 
 import surgo.kom.common.components.Position;
 import surgo.kom.common.components.Render;
-import surgo.kom.common.nodes.GameNode;
 
 /**
  *

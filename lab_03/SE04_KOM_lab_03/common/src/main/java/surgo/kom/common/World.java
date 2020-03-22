@@ -5,9 +5,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.ServiceLoader;
 import java.util.concurrent.ConcurrentHashMap;
 import surgo.kom.common.components.GameComponent;
 import surgo.kom.common.nodes.GameNode;
@@ -24,21 +24,19 @@ public class World {
     private final Map<Entity, List<GameNode>> entityNodes = new HashMap<>();
     private final NodeList<GameNode> nodeTypes = new NodeList();
     private final Map<Class, List<GameNode>> allNodes = new HashMap<>();
-    
-    public World() {
-        for (INode node : ServiceLoader.load(INode.class)) {
-            nodeTypes.add(node.registerNode());
-        }
+
+    public World(Iterator<INode> nodes) {
+        nodes.forEachRemaining(node -> nodeTypes.add(node.registerNode()));
     }
-    
+
     private List<GameNode> extractNodes(Map<Class, GameComponent> components) {
         List<GameNode> extractedNodes = new ArrayList<>();
         for (GameNode nodeType : nodeTypes.getNodes().values()) {
-            if(components.keySet().containsAll(nodeType.getComponents().keySet())) {
+            if (components.keySet().containsAll(nodeType.getComponents().keySet())) {
                 try {
                     GameNode node = nodeType.clone();
-                    for(GameComponent component : components.values()) {
-                        if(nodeType.getComponents().containsKey(component.getClass())) {
+                    for (GameComponent component : components.values()) {
+                        if (nodeType.getComponents().containsKey(component.getClass())) {
                             node.addComponent(component.getClass(), component);
                         }
                     }
@@ -47,15 +45,15 @@ public class World {
                     ex.printStackTrace();
                 }
             }
-        }      
+        }
         return extractedNodes;
     }
-    
+
     private void distributeNodes(List<GameNode> nodeList, Entity entity) {
-            entityNodes.put(entity, nodeList);
+        entityNodes.put(entity, nodeList);
         for (GameNode node : nodeList) {
             List<GameNode> gameNodes = allNodes.get(node.getClass());
-            if(gameNodes != null) {
+            if (gameNodes != null) {
                 gameNodes.add(node);
             } else {
                 List<GameNode> newGameNodes = new ArrayList<>();
@@ -65,12 +63,12 @@ public class World {
             node.setParentEntity(entity);
         }
     }
-    
+
     public <E extends GameNode> void sortListBy(Class listToSort, Comparator<E> comparator) {
         List<E> retrievedList = (List<E>) allNodes.get(listToSort);
         Collections.sort(retrievedList, comparator);
     }
-        
+
     public String addEntity(Entity entity) {
         entityMap.put(entity.getID(), entity);
         distributeNodes(extractNodes(entity.getComponents()), entity);
@@ -79,25 +77,25 @@ public class World {
 
     public void removeEntity(Entity entity) {
         List<GameNode> entitiesNodes = entityNodes.get(entity);
-        if(entitiesNodes != null) {
+        if (entitiesNodes != null) {
             for (GameNode entitiesNode : entitiesNodes) {
                 List<GameNode> relevant = allNodes.get(entitiesNode.getClass());
                 relevant.remove(entitiesNode);
-            }        
-            entityNodes.remove(entity); 
+            }
+            entityNodes.remove(entity);
         }
         entityMap.remove(entity.getID());
     }
-    
+
     public Map<Class, List<GameNode>> getNodes() {
         return allNodes;
     }
-    
+
     public <E extends GameNode> List<E> getNodes(Class<E> c) {
         List<E> result = (List<E>) allNodes.get(c);
         return result != null ? result : new ArrayList<>();
     }
-    
+
     public Collection<Entity> getEntities() {
         return entityMap.values();
     }

@@ -50,7 +50,7 @@ public class AsteroidCollisionSystem implements INodeSystem {
         newAsteroid.add(new Moving(0f, 0f, 200, 10f));
         Rotation rotation = new Rotation((float) (Math.PI * 2 * Math.random()));
         newAsteroid.add(rotation);
-        CollisionBox collision = new CollisionBox(radius - radius / 3, 0, 50);
+        CollisionBox collision = new CollisionBox(radius - radius / 5, 0, 50);
         newAsteroid.add(collision);
         newAsteroid.add(new Render(new float[10], new float[10], rotation, (float[] shapex, float[] shapey, Rotation rot) -> {
             for (int j = 0; j < 10; j++) {

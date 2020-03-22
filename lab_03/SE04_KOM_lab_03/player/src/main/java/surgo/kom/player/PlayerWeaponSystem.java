@@ -1,7 +1,3 @@
-/*
- * Created by Samuel Bangslund, Odense SDU Software Engineering 1. semester.
- */
-
 package surgo.kom.player;
 
 import java.util.List;
@@ -22,8 +18,9 @@ public class PlayerWeaponSystem implements INodeSystem {
         List<PlayerWeaponNode> nodes = world.getNodes(PlayerWeaponNode.class);
         for (PlayerWeaponNode node : nodes) {
             Weapon weapon = node.getComponent(Weapon.class);
-            if(gamedata.getKeys().isDown(GameKeys.SPACE)) {
+            if (gamedata.getKeys().isDown(GameKeys.SPACE) && !weapon.isInCooldown()) {
                 weapon.setFiring(true);
+                weapon.setCooldown(150);
             }
         }
     }

@@ -1,12 +1,12 @@
-package surgo.kom.core.systems;
+package surgo.kom.common.systems;
 
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import surgo.kom.common.GameData;
 import surgo.kom.common.World;
 import surgo.kom.common.components.Position;
 import surgo.kom.common.components.Render;
-import surgo.kom.core.interfaces.IRenderNodeSystem;
-import surgo.kom.core.nodes.RenderNode;
+import surgo.kom.common.contracts.IRenderNodeSystem;
+import surgo.kom.common.nodes.RenderNode;
 
 /**
  *
@@ -19,9 +19,7 @@ public class RenderSystem implements IRenderNodeSystem {
         for (RenderNode node : world.getNodes(RenderNode.class)) {
             Position position = node.getComponent(Position.class);
             Render render = node.getComponent(Render.class);
-            
-            System.out.println("Hello there!");
-            
+                        
             sr.setColor(1, 1, 1, 1);
             sr.begin(ShapeRenderer.ShapeType.Line);
             

@@ -8,10 +8,11 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ServiceLoader;
-import surgo.kom.core.interfaces.IRenderNodeSystem;
+import surgo.kom.common.contracts.IRenderNodeSystem;
 import surgo.kom.common.GameData;
 import surgo.kom.common.World;
 import surgo.kom.common.contracts.*;
+import surgo.kom.common.nodes.INode;
 
 public class Game implements ApplicationListener {
 
@@ -19,7 +20,7 @@ public class Game implements ApplicationListener {
     private ShapeRenderer sr;
 
     private final GameData gameData = new GameData();
-    private World world = new World();
+    private World world;
 
     private List<INodeSystem> nodeSystems = new ArrayList<>();
     private List<INodePlugin> nodePlugins = new ArrayList<>();
@@ -29,6 +30,8 @@ public class Game implements ApplicationListener {
     @Override
     public void create() {
 
+        world = new World(ServiceLoader.load(INode.class).iterator());
+        
         gameData.setDisplayWidth(Gdx.graphics.getWidth());
         gameData.setDisplayHeight(Gdx.graphics.getHeight());
 

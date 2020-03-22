@@ -59,24 +59,32 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>surgo.kom</groupId>
-            <artifactId>common</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>player</artifactId>
             <version>${project.version}</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>surgo.kom</groupId>
+            <artifactId>common</artifactId>
+            <version>${project.version}</version>
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>asteroid</artifactId>
             <version>${project.version}</version>
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>enemy</artifactId>
+            <version>${project.version}</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>weapon</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

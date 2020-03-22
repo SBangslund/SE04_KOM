@@ -15,8 +15,9 @@ public class EnemyWeaponSystem implements INodeSystem {
     public void process(GameData gamedata, World world) {
         for (EnemyWeaponNode node : world.getNodes(EnemyWeaponNode.class)) {
             Weapon weapon = node.getComponent(Weapon.class);
-            if(Math.random() < 0.1) {
+            if(Math.random() < 0.1 && !weapon.isInCooldown()) {
                 weapon.setFiring(true);
+                weapon.setCooldown(1000);
             }
         }
     }
