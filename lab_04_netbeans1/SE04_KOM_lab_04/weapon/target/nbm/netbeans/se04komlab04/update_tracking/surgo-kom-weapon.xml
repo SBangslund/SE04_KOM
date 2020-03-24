@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="surgo.kom.weapon">
+    <module_version install_time="1584952850742" last="true" origin="installer" specification_version="1.0">
+        <file crc="1373715407" name="config/Modules/surgo-kom-weapon.xml"/>
+        <file crc="4282901301" name="modules/surgo-kom-weapon.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,8 @@
+surgo\kom\player\PlayerMovementSystem.class
+META-INF\services\surgo.kom.common.nodes.INode
+META-INF\services\surgo.kom.common.contracts.INodePlugin
+surgo\kom\player\PlayerWeaponSystem.class
+META-INF\services\surgo.kom.common.contracts.INodeSystem
+surgo\kom\player\PlayerPlugin.class
+surgo\kom\player\PlayerMovementNode.class
+surgo\kom\player\PlayerWeaponNode.class
