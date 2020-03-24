@@ -1,0 +1,9 @@
+META-INF\services\surgo.kom.common.nodes.INode
+META-INF\services\surgo.kom.core.interfaces.IRenderNodeSystem
+surgo\kom\core\systems\RenderSystem.class
+surgo\kom\core\interfaces\IRenderNodeSystem.class
+surgo\kom\core\Game.class
+surgo\kom\core\nodes\RenderNode.class
+surgo\kom\core\Game$1.class
+surgo\kom\core\GameInputProcessor.class
+surgo\kom\core\Main.class

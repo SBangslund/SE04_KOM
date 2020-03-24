@@ -46,12 +46,10 @@ public class Game implements ApplicationListener {
         );
 
         Lookup lookup = Lookup.getDefault();
-        
-        world = new World((Iterator<INode>)lookup.lookupAll(INode.class).iterator());
 
-        for (INodeSystem system : lookup.lookupAll(INodeSystem.class)) {
+        lookup.lookupAll(INodeSystem.class).forEach((system) -> {
             nodeSystems.add(system);
-        }
+        });
 
         for (INodePlugin plugin : lookup.lookupAll(INodePlugin.class)) {
             nodePlugins.add(plugin);
@@ -64,6 +62,8 @@ public class Game implements ApplicationListener {
         for (IRenderNodeSystem system : lookup.lookupAll(IRenderNodeSystem.class)) {
             renderSystems.add(system);
         }
+        
+        world = new World((Iterator<INode>)lookup.lookupAll(INode.class).iterator());
 
         nodePlugins.forEach(e -> e.start(gameData, world));
     }

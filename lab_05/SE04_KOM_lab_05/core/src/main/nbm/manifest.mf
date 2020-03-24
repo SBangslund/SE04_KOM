@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: surgo/kom/core/Main.class
+OpenIDE-Module-Localizing-Bundle: surgo/kom/core/Bundle.properties
+
