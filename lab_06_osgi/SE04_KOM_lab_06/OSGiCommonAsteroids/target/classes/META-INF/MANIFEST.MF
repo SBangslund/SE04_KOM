@@ -3,7 +3,7 @@ Bundle-Description: Generated using Pax-Construct
 Bundle-SymbolicName: dk.sdu.mmmi.common
 Built-By: sbang
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1585229673412
+Bnd-LastModified: 1585230777104
 Import-Package: dk.sdu.mmmi.cbse.common.asteroids,dk.sdu.mmmi.cbse.com
  mon.data
 Tool: Bnd-0.0.255

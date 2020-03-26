@@ -3,7 +3,7 @@ Bundle-Description: Generated using Pax-Construct
 Bundle-SymbolicName: OSGiEnemy
 Built-By: sbang
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1585229673669
+Bnd-LastModified: 1585230777862
 Bundle-ActivationPolicy: lazy
 Import-Package: dk.sdu.mmmi.cbse.bullet;version="1.0.0.SNAPSHOT",dk.sd
  u.mmmi.cbse.common.bullet;version="1.0.0.SNAPSHOT",dk.sdu.mmmi.cbse.c

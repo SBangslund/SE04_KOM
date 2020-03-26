@@ -58,7 +58,7 @@
         <module>OSGiEnemy</module>
         <module>OSGiLibGDX</module>
         <module>OSGiPlayer</module>
-    <module>OSGiAsteroids</module>
+        <module>OSGiAsteroids</module>
   </modules>
 
     <build>

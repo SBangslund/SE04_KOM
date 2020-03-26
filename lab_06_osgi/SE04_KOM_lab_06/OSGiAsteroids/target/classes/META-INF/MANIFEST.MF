@@ -3,30 +3,29 @@ Bundle-Description: Generated using Pax-Construct
 Bundle-SymbolicName: OSGiAsteroid
 Built-By: sbang
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1585229673899
+Bnd-LastModified: 1585230778505
 Bundle-ActivationPolicy: lazy
 Import-Package: dk.sdu.mmmi.cbse.common.asteroids;version="1.0.0.SNAPS
  HOT",dk.sdu.mmmi.cbse.common.data;version="1.0.0.SNAPSHOT",dk.sdu.mmm
  i.cbse.common.data.entityparts;version="1.0.0.SNAPSHOT",dk.sdu.mmmi.c
  bse.common.events;version="1.0.0.SNAPSHOT",dk.sdu.mmmi.cbse.common.se
  rvices;version="1.0.0.SNAPSHOT",dk.sdu.mmmi.osgiasteroids;version="1.
- 0.0.SNAPSHOT"
-Service-Component: META-INF/entityprocessor.xml,META-INF/gameplugin.xm
- l
+ 0.0.SNAPSHOT",org.osgi.framework
 Tool: Bnd-0.0.255
 Export-Package: dk.sdu.mmmi.cbse.common.data.entityparts;uses:="dk.sdu
  .mmmi.cbse.common.data";version="1.0.0.SNAPSHOT",dk.sdu.mmmi.osgiaste
- roids;uses:="dk.sdu.mmmi.cbse.common.data.entityparts,dk.sdu.mmmi.cbs
- e.common.data,dk.sdu.mmmi.cbse.common.asteroids,dk.sdu.mmmi.cbse.comm
- on.services";version="1.0.0.SNAPSHOT",dk.sdu.mmmi.cbse.common.data;us
- es:="dk.sdu.mmmi.cbse.common.data.entityparts,dk.sdu.mmmi.cbse.common
- .events";version="1.0.0.SNAPSHOT",dk.sdu.mmmi.cbse.common.asteroids;u
- ses:="dk.sdu.mmmi.cbse.common.data";version="1.0.0.SNAPSHOT",dk.sdu.m
- mmi.cbse.common.events;uses:="dk.sdu.mmmi.cbse.common.data";version="
- 1.0.0.SNAPSHOT",dk.sdu.mmmi.cbse.common.services;uses:="dk.sdu.mmmi.c
- bse.common.data";version="1.0.0.SNAPSHOT"
+ roids;uses:="org.osgi.framework,dk.sdu.mmmi.cbse.common.data.entitypa
+ rts,dk.sdu.mmmi.cbse.common.data,dk.sdu.mmmi.cbse.common.asteroids,dk
+ .sdu.mmmi.cbse.common.services";version="1.0.0.SNAPSHOT",dk.sdu.mmmi.
+ cbse.common.data;uses:="dk.sdu.mmmi.cbse.common.data.entityparts,dk.s
+ du.mmmi.cbse.common.events";version="1.0.0.SNAPSHOT",dk.sdu.mmmi.cbse
+ .common.asteroids;uses:="dk.sdu.mmmi.cbse.common.data";version="1.0.0
+ .SNAPSHOT",dk.sdu.mmmi.cbse.common.events;uses:="dk.sdu.mmmi.cbse.com
+ mon.data";version="1.0.0.SNAPSHOT",dk.sdu.mmmi.cbse.common.services;u
+ ses:="dk.sdu.mmmi.cbse.common.data";version="1.0.0.SNAPSHOT"
 Bundle-Version: 1.0.0.SNAPSHOT
 Bundle-Name: OSGiAsteroids
+Bundle-Activator: dk.sdu.mmmi.osgiasteroids.Activator
 Private-Package: dk.sdu.mmmi.internal.*
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.8.0_171
