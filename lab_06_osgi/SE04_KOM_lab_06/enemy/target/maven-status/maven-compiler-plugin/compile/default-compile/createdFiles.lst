@@ -1,9 +1,0 @@
-surgo\kom\enemy\EnemyMovementNode.class
-surgo\kom\enemy\EnemyWeaponNode.class
-META-INF\services\surgo.kom.common.nodes.INode
-surgo\kom\enemy\EnemyPlugin$1.class
-surgo\kom\enemy\EnemyWeaponSystem.class
-META-INF\services\surgo.kom.common.contracts.INodePlugin
-META-INF\services\surgo.kom.common.contracts.INodeSystem
-surgo\kom\enemy\EnemyPlugin.class
-surgo\kom\enemy\EnemyMovementSystem.class

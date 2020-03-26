@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="surgo.kom.common">
-    <module_version install_time="1585050198924" last="true" origin="installer" specification_version="1.0">
-        <file crc="797203709" name="config/Modules/surgo-kom-common.xml"/>
-        <file crc="3764980079" name="modules/ext/surgo.kom.common/com-badlogicgames-gdx/gdx.jar"/>
-        <file crc="4046448423" name="modules/surgo-kom-common.jar"/>
-    </module_version>
-</module>

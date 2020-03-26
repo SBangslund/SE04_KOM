@@ -1,6 +1,0 @@
-surgo\kom\asteroid\AsteroidCollisionNode.class
-META-INF\services\surgo.kom.common.nodes.INode
-META-INF\services\surgo.kom.common.contracts.INodePlugin
-META-INF\services\surgo.kom.common.contracts.INodeSystem
-surgo\kom\asteroid\AsteroidPlugin.class
-surgo\kom\asteroid\AsteroidCollisionSystem.class
