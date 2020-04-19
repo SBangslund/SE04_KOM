@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="enemyMovementNodeBean" class="surgo.kom.enemy.EnemyMovementNode" />
+    <bean id="enemyWeaponNodeBean" class="surgo.kom.enemy.EnemyWeaponNode" />
+    <bean id="enemyMovementSystemBean" class="surgo.kom.enemy.EnemyMovementSystem" />
+    <bean id="enemyWeaponSystemBean" class="surgo.kom.enemy.EnemyWeaponSystem" />
+    <bean id="enemyPluginBean" class="surgo.kom.enemy.EnemyPlugin" />
+</beans>

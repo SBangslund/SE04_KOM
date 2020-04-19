@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="playeMovementNodeBean" class="surgo.kom.player.PlayerMovementNode" />
+        <bean id="playerMovementSystemBean" class ="surgo.kom.player.PlayerMovementSystem"/>
+        <bean id="playerWeaponNodeBean" class ="surgo.kom.player.PlayerWeaponNode"/>
+        <bean id="playerWeaponSystemBean" class ="surgo.kom.player.PlayerWeaponSystem"/>
+        <bean id="playerPluginBean" class ="surgo.kom.player.PlayerPlugin"/>
+</beans>

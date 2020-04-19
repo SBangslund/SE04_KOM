@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collisionSystemBean" class="surgo.kom.common.systems.CollisionSystem" />
+    <bean id="collisionNodeBean" class="surgo.kom.common.nodes.CollisionNode" />
+    <bean id="movementsSystemBean" class="surgo.kom.common.systems.MovementSystem" />
+    <bean id="movementNodeBean" class="surgo.kom.common.nodes.MovementNode" />
+    <bean id="renderSystemBean" class="surgo.kom.common.systems.RenderSystem" />
+    <bean id="renderNodeBean" class="surgo.kom.common.nodes.RenderNode" />
+    <bean id="timerSystemBean" class="surgo.kom.common.systems.TimerSystem" />
+    <bean id="timerNodeBean" class="surgo.kom.common.nodes.TimerNode" />
+</beans>
