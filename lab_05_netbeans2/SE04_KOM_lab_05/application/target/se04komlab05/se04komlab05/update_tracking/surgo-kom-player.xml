@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module codename="surgo.kom.player">
-    <module_version install_time="1585049496911" last="true" origin="Sample Update Center" specification_version="1.0">
+    <module_version install_time="1585255291509" last="true" origin="Sample Update Center" specification_version="1.0">
         <file crc="3766680669" name="config/Modules/surgo-kom-player.xml"/>
-        <file crc="2911077558" name="modules/surgo-kom-player.jar"/>
+        <file crc="1732190340" name="modules/surgo-kom-player.jar"/>
     </module_version>
 </module>

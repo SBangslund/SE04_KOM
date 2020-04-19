@@ -3,7 +3,7 @@ Bundle-Description: Generated using Pax-Construct
 Bundle-SymbolicName: OSGiPlayer
 Built-By: sbang
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1585230777980
+Bnd-LastModified: 1585252752614
 Bundle-ActivationPolicy: lazy
 Import-Package: dk.sdu.mmmi.cbse.common.data;version="1.0.0.SNAPSHOT",
  dk.sdu.mmmi.cbse.common.data.entityparts;version="1.0.0.SNAPSHOT",dk.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module codename="surgo.kom.enemy">
-    <module_version install_time="1585049868297" last="true" origin="Sample Update Center" specification_version="1.0">
+    <module_version install_time="1585255764972" last="true" origin="Sample Update Center" specification_version="1.0">
         <file crc="2793837221" name="config/Modules/surgo-kom-enemy.xml"/>
-        <file crc="3366833998" name="modules/surgo-kom-enemy.jar"/>
+        <file crc="3847198188" name="modules/surgo-kom-enemy.jar"/>
     </module_version>
 </module>

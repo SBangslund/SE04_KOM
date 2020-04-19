@@ -1,4 +1,4 @@
-#Tue Mar 24 12:38:55 CET 2020
+#Thu Mar 26 21:49:17 CET 2020
 surgo.kom.common.OpenIDE-Module-Hide-Classpath-Packages=\u0000
 surgo.kom.player.OpenIDE-Module-Hide-Classpath-Packages=\u0000
 org.netbeans.api.progress.OpenIDE-Module-Description=\u0000
@@ -84,8 +84,8 @@ org.netbeans.api.progress.nb.AutoUpdate-Show-In-Client=false
 surgo.kom.core.AutoUpdate-Show-In-Client=\u0000
 org.openide.awt.OpenIDE-Module-Hide-Classpath-Packages=\u0000
 org.openide.util.lookup.OpenIDE-Module-Install=\u0000
-org.openide.awt.AutoUpdate-Show-In-Client=false
 surgo.kom.enemy.AutoUpdate-Show-In-Client=\u0000
+org.openide.awt.AutoUpdate-Show-In-Client=false
 org.netbeans.modules.autoupdate.services.OpenIDE-Module-Install=\u0000
 surgo.kom.common.OpenIDE-Module-Deprecated=\u0000
 org.netbeans.modules.netbinox.OpenIDE-Module-Deprecated=\u0000

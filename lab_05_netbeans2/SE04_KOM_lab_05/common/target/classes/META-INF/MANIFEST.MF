@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 OpenIDE-Module-Localizing-Bundle: surgo/kom/common/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0
 OpenIDE-Module-Implementation-Version: 1.0
-OpenIDE-Module-Build-Version: 202003241143
+OpenIDE-Module-Build-Version: 202003262028
 OpenIDE-Module: surgo.kom.common
 OpenIDE-Module-Public-Packages: surgo.kom.common.components.*, surgo.k
  om.common.*, surgo.kom.common.contracts.*, surgo.kom.common.nodes.*, 

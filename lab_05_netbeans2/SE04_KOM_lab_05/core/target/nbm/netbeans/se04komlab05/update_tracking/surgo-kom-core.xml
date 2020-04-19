@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="surgo.kom.core">
-    <module_version install_time="1585046462076" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1585254527791" last="true" origin="installer" specification_version="1.0">
         <file crc="3760476314" name="config/Modules/surgo-kom-core.xml"/>
         <file crc="2975890568" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar"/>
         <file crc="89921408" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar"/>
@@ -17,6 +17,6 @@
         <file crc="4182559041" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar"/>
         <file crc="1131781346" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl.jar"/>
         <file crc="1311417881" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl_util.jar"/>
-        <file crc="3406787238" name="modules/surgo-kom-core.jar"/>
+        <file crc="3863074137" name="modules/surgo-kom-core.jar"/>
     </module_version>
 </module>

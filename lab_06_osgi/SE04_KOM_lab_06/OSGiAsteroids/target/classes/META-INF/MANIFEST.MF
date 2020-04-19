@@ -3,7 +3,7 @@ Bundle-Description: Generated using Pax-Construct
 Bundle-SymbolicName: OSGiAsteroid
 Built-By: sbang
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1585230778505
+Bnd-LastModified: 1585252753218
 Bundle-ActivationPolicy: lazy
 Import-Package: dk.sdu.mmmi.cbse.common.asteroids;version="1.0.0.SNAPS
  HOT",dk.sdu.mmmi.cbse.common.data;version="1.0.0.SNAPSHOT",dk.sdu.mmm

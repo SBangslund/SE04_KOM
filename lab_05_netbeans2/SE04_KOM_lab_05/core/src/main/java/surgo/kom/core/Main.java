@@ -11,8 +11,8 @@ public class Main extends ModuleInstall {
         LwjglApplicationConfiguration cfg =
 			new LwjglApplicationConfiguration();
 		cfg.title = "Asteroids - wannabe";
-		cfg.width = 1000;
-		cfg.height = 800;
+		cfg.width = 800;
+		cfg.height = 700;
 		cfg.useGL30 = false;
 		cfg.resizable = false;
 		

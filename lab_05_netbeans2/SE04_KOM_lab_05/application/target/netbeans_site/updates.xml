@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!DOCTYPE module_updates PUBLIC "-//NetBeans//DTD Autoupdate Catalog 2.5//EN" "http://www.netbeans.org/dtds/autoupdate-catalog-2_5.dtd">
-<module_updates timestamp="50/25/11/24/03/2020">
+<module_updates timestamp="39/30/20/26/03/2020">
 
-<module codenamebase="surgo.kom.player" distribution="player-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/24" targetcluster="se04komlab05">
-    <manifest OpenIDE-Module="surgo.kom.player" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, surgo.kom.common &gt; 1.0, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="player" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
-</module>
-
-<module codenamebase="surgo.kom.enemy" distribution="enemy-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/24" targetcluster="se04komlab05">
-    <manifest OpenIDE-Module="surgo.kom.enemy" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, surgo.kom.common &gt; 1.0, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="enemy" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
-</module>
-
-<module codenamebase="surgo.kom.core" distribution="core-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/24" targetcluster="se04komlab05">
-    <manifest OpenIDE-Module="surgo.kom.core" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, org.openide.util.lookup &gt; 8.35.1, surgo.kom.common &gt; 1.0, surgo.kom.player &gt; 1.0, org.openide.modules &gt; 7.50.1, org.openide.util.ui &gt; 9.9.1" OpenIDE-Module-Name="core" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
-</module>
-
-<module codenamebase="surgo.kom.common" distribution="common-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/24">
-    <manifest OpenIDE-Module="surgo.kom.common" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="common" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
-</module>
-
-<module codenamebase="surgo.kom.asteroid" distribution="asteroid-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/24" targetcluster="se04komlab05">
+<module codenamebase="surgo.kom.asteroid" distribution="asteroid-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/26" targetcluster="se04komlab05">
     <manifest OpenIDE-Module="surgo.kom.asteroid" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, surgo.kom.common &gt; 1.0, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="asteroid" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
 </module>
-
-<module codenamebase="surgo.kom.weapon" distribution="weapon-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/24" targetcluster="se04komlab05">
+<module codenamebase="surgo.kom.common" distribution="common-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/26">
+    <manifest OpenIDE-Module="surgo.kom.common" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="common" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
+</module>
+<module codenamebase="surgo.kom.core" distribution="core-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/26" targetcluster="se04komlab05">
+    <manifest OpenIDE-Module="surgo.kom.core" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, org.openide.util.lookup &gt; 8.35.1, surgo.kom.common &gt; 1.0, surgo.kom.player &gt; 1.0, org.openide.modules &gt; 7.50.1, org.openide.util.ui &gt; 9.9.1" OpenIDE-Module-Name="core" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
+</module>
+<module codenamebase="surgo.kom.enemy" distribution="enemy-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/26" targetcluster="se04komlab05">
+    <manifest OpenIDE-Module="surgo.kom.enemy" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, surgo.kom.common &gt; 1.0, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="enemy" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
+</module>
+<module codenamebase="surgo.kom.player" distribution="player-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/26" targetcluster="se04komlab05">
+    <manifest OpenIDE-Module="surgo.kom.player" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, surgo.kom.common &gt; 1.0, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="player" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
+</module>
+<module codenamebase="surgo.kom.weapon" distribution="weapon-1.0.nbm" downloadsize="0" license="EE864CEE" needsrestart="false" releasedate="2020/03/26" targetcluster="se04komlab05">
     <manifest OpenIDE-Module="surgo.kom.weapon" OpenIDE-Module-Display-Category="surgo.kom" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="&lt;undefined&gt;" OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, surgo.kom.common &gt; 1.0, org.openide.util.lookup &gt; 8.35.1" OpenIDE-Module-Name="weapon" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="&lt;undefined&gt;" OpenIDE-Module-Specification-Version="1.0"/>
 </module>
-
 <module autoload="true" codenamebase="org.netbeans.modules.autoupdate.services" distribution="org-netbeans-modules-autoupdate-services-RELEASE90.nbm" downloadsize="197722" homepage="http://www.netbeans.org/" license="B2B74E56" moduleauthor="" needsrestart="false" releasedate="2019/04/17" targetcluster="platform">
         
     <manifest AutoUpdate-Essential-Module="true" AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.netbeans.modules.autoupdate.services" OpenIDE-Module-Display-Category="Infrastructure" OpenIDE-Module-Implementation-Version="incubator-netbeans-release-334-on-20180708" OpenIDE-Module-Java-Dependencies="Java &gt; 1.7" OpenIDE-Module-Long-Description="The AutoUpdate feature provides several services: download and install available updates of installed modules, search and install new modules from subscribed Update Centers, view and manage the modules." OpenIDE-Module-Module-Dependencies="org.netbeans.api.progress/1 &gt; 1.40, org.netbeans.api.progress.nb &gt; 1.40, org.netbeans.bootstrap/1 &gt; 2.74, org.netbeans.core.startup/1 &gt; 1.60, org.netbeans.core.startup.base &gt; 1.60, org.openide.filesystems &gt; 9.0, org.openide.modules &gt; 7.25, org.openide.util &gt; 9.3, org.openide.util.lookup &gt; 8.0, org.openide.util.ui &gt; 9.3" OpenIDE-Module-Name="Auto Update Services" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="Support for searching for module updates on Update Center and for downloading and installing modules" OpenIDE-Module-Specification-Version="1.54.1"/>
@@ -139,7 +133,7 @@
 
 </module>
 
-<module codenamebase="surgo.kom.SilentUpdate" distribution="SilentUpdate-1.0.nbm" downloadsize="10927" license="EE864CEE" needsrestart="false" releasedate="2020/03/24" targetcluster="se04komlab05">
+<module codenamebase="surgo.kom.SilentUpdate" distribution="SilentUpdate-1.0.nbm" downloadsize="10909" license="EE864CEE" needsrestart="false" releasedate="2020/03/26" targetcluster="se04komlab05">
         
     <manifest OpenIDE-Module="surgo.kom.SilentUpdate" OpenIDE-Module-Display-Category="Infrastructure" OpenIDE-Module-Implementation-Version="1.0" OpenIDE-Module-Long-Description="A service installing updates of your NetBeans Platform Application with as few as possible user's interactions." OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.29.1, org.openide.modules &gt; 7.50.1, org.netbeans.modules.autoupdate.services &gt; 1.54.1, org.openide.io &gt; 1.51.1, org.openide.util &gt; 9.9.1" OpenIDE-Module-Name="Silent Update" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="Silent Update of Application" OpenIDE-Module-Specification-Version="1.0"/>
         

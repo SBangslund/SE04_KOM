@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module codename="surgo.kom.asteroid">
-    <module_version install_time="1585049497006" last="true" origin="Sample Update Center" specification_version="1.0">
+    <module_version install_time="1585255226186" last="true" origin="Sample Update Center" specification_version="1.0">
         <file crc="487627090" name="config/Modules/surgo-kom-asteroid.xml"/>
-        <file crc="3026977401" name="modules/surgo-kom-asteroid.jar"/>
+        <file crc="2738520953" name="modules/surgo-kom-asteroid.jar"/>
     </module_version>
 </module>
