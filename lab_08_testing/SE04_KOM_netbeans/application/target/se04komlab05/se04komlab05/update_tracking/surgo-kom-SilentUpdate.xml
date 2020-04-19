@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="surgo.kom.SilentUpdate">
+    <module_version install_time="1587298489931" last="true" origin="installer" specification_version="1.0">
+        <file crc="3184807720" name="config/Modules/surgo-kom-SilentUpdate.xml"/>
+        <file crc="358835106" name="modules/surgo-kom-SilentUpdate.jar"/>
+    </module_version>
+</module>

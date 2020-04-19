@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="surgo.kom.core">
+    <module_version install_time="1587298497453" last="true" origin="installer" specification_version="1.0">
+        <file crc="3760476314" name="config/Modules/surgo-kom-core.xml"/>
+        <file crc="2975890568" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar"/>
+        <file crc="89921408" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar"/>
+        <file crc="2560753400" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-box2d.jar"/>
+        <file crc="3017778363" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-freetype-platform-natives-desktop.jar"/>
+        <file crc="335919804" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-freetype.jar"/>
+        <file crc="4188977031" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx-platform-natives-desktop.jar"/>
+        <file crc="3764980079" name="modules/ext/surgo.kom.core/com-badlogicgames-gdx/gdx.jar"/>
+        <file crc="1146210713" name="modules/ext/surgo.kom.core/com-badlogicgames-jlayer/jlayer.jar"/>
+        <file crc="426864957" name="modules/ext/surgo.kom.core/net-java-jinput/jinput.jar"/>
+        <file crc="1529865491" name="modules/ext/surgo.kom.core/net-java-jutils/jutils.jar"/>
+        <file crc="2846045197" name="modules/ext/surgo.kom.core/org-jcraft/jorbis.jar"/>
+        <file crc="4257286244" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl-platform-natives-linux.jar"/>
+        <file crc="195738200" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl-platform-natives-osx.jar"/>
+        <file crc="4182559041" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl-platform-natives-windows.jar"/>
+        <file crc="1131781346" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl.jar"/>
+        <file crc="1311417881" name="modules/ext/surgo.kom.core/org-lwjgl-lwjgl/lwjgl_util.jar"/>
+        <file crc="2470473066" name="modules/surgo-kom-core.jar"/>
+    </module_version>
+</module>
